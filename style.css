@@ -1,0 +1,78 @@
+.bg-image{
+     background-image: url(01.jpg);
+     /* tạo nền hình ảnh */
+    color: aliceblue;
+    background-size: cover;
+    /* hình nền bao phủ toàn bộ div, kể cả khi hình nền nhỏ hơn kích thước của div, giá trị contain: hình nền hiển thị đầy đủ và không bị cắt xén, */
+    background-repeat: no-repeat;
+    /* thuộc tính này sẽ ngăn chặn hình nền lặp lại nếu nó nhỏ hơn kích thước của div */
+    height: 800px;
+}
+/* CSS cho thanh điều hướng */
+.navbar{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar-brand{
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+}
+.navbar-brand img{
+    max-height: 50px;
+}
+.navbar-toggler{
+    background-color: transparent;
+    /* bỏ màu nền */
+    border: none;
+    /* Bỏ viền */
+    padding: 10px;
+}
+.navbar-toggler-icon{
+    background-image: url(logo.png);
+}
+.offcanvas{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.offcanvas-header{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.offcanvas-title{
+    padding-top: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+.offcanvas-body{
+    padding: 20px;
+}
+.navbar-nav{
+    display: flex;
+}
+.nav-link{
+    color: black;
+}
+.nav-item{
+    margin-right: 10px;
+    /* Khoảng cách giữa các mục menu */
+}
+nav ul{
+    list-style: none;
+    /* Loại bỏ dấu chấm đầu dòng */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: aquamarine;
+}
